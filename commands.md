@@ -1,3 +1,9 @@
+# packages
+django-mptt
+
+
+
+# commands
 django-admin startproject drfecommerce
 
 python manage.py runserver
