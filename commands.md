@@ -10,5 +10,11 @@ pip freeze > requirements.txt
 
  pip install --upgrade pip
 
+ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+ 
+ venv\scripts\activate
+ 
+
+
  
 
