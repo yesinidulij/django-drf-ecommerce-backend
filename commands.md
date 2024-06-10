@@ -1,6 +1,6 @@
 # packages
 django-mptt
-
+drf-spectacular
 
 
 # commands
@@ -19,6 +19,10 @@ pip freeze > requirements.txt
  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
  
  venv\scripts\activate
+ pip install drf-spectacular
+
+ python manage.py spectacular --file schema.yml
+ 
  
 
 
